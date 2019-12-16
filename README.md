@@ -42,3 +42,6 @@ This is my first time trying it out. I've been mostly just using sass, but the m
 
 ### Fast-Check
 A property based testing library that is really for property based testing by generating random data and shrinking down error data to find the simplest form of data that can break the app, though I'm just using it for the generating data part. I said this is the file itself but again, this has become my favorite part a lot of times.
+
+### Webpack and co
+Pretty standard (for me) build config that I copy-paste around all my projects. I didn't specifically spend time on this. I like to have total control over the build so I usually don't use `create-react-app` and such. I also like aliases which last time I checked wasn't supported with `create-react-app`. 
