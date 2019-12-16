@@ -10,7 +10,7 @@ Run `npm install` or `yarn [install]` to install packages. Run `npm run start` o
 
 The nav bar, well, navs to pages. There is only one real page, the People page. All the other pages are mostly blank. The Violations page is there to show alerts.
 
-Alerts start out at 100/200. It will tick up as the pretend alert backend increment alerts if you are not looking. When you visit a page and the pages loads its data, then alerts for that page is cleared. It can still tick up from 0. On the People page, getting a new set of data (by clicking on either "Use Set Data" or "Use Random Data" buttons) will also reset the alerts.
+Alerts start out at 100/200. It will tick up as the pretend alert backend increment alerts if you are not looking. When you visit a page and the pages loads its data, then alerts for that page is cleared. It can still tick up from 0. On the People page, getting a new set of data (by clicking on either "Use Set Data" or "Use Random Data" buttons) will also reset the alerts because you fetched "newest" data.
 
 ### The graph
 
@@ -41,7 +41,7 @@ I'm using react for the general construction and state management of the app. I 
 This is my first time trying it out. I've been mostly just using sass, but the more I work on styling stuff the more I favor a css-in-js solution. So I'm taking this chance to try out something new.
 
 ### Fast-Check
-A property based testing library that is really for property based testing by generating random data and shrinking down error data to find the simplest form of data that can break the app, though I'm just using it for the generating data part. I said this is the file itself but again, this has become my favorite part a lot of times.
+A property based testing library that is really for property based testing by generating random data and shrinking down error data to find the simplest form of data that can break the app, though I'm just using it for the generating data part. I said this in the file itself but again, this has become my favorite part a lot of times.
 
 ### Webpack and co
 Pretty standard (for me) build config that I copy-paste around all my projects. I didn't specifically spend time on this. I like to have total control over the build so I usually don't use `create-react-app` and such. I also like aliases which last time I checked wasn't supported with `create-react-app`. 
