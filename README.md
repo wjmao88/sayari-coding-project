@@ -1,5 +1,9 @@
 # Sayari Project
 
+## How to run
+
+Run `npm install` or `yarn [install]` to install packages. Run `npm run start` or `yarn [run] start` to run. The app should be available at `localhost:12345`
+
 ## Features
 
 ### Nav and alerts
